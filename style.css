@@ -1,0 +1,345 @@
+body{
+    margin: 0%;
+    
+}
+
+nav{
+background-color: rgb(237, 231, 221);
+}
+.heading{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.heading .art{
+    font-size: 50px;
+    font-family: "Cormorant SC", serif;
+    font-style: italic;
+}
+
+.nav-section {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-section a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    
+}
+
+
+.heading img{
+    max-width: 30px;
+    margin-left: 40px;
+}
+
+
+/*INTRODUCTION SESSION*/
+
+.introduction{
+    position: relative;
+    top: 100px;
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.intro-heading{
+    margin-top: 20px;
+    max-width: 450px;
+    flex-shrink: 0;
+
+}
+.intro-heading h2{
+    font-family: "Cormorant SC", serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.intro-heading p{
+    line-height: 24px;
+    font-family: "Lato", sans-serif;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: rgb(38, 36, 36);
+}
+
+
+/*About Session*/
+.about-session{
+    display: flex;
+    background-color: white;
+    padding-top: 150px;
+    gap: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aboutMe{
+    width: 550px;
+}
+
+.aboutMe h2{
+    font-family: "Cormorant SC", serif;
+    font-size: 40px;
+}
+.aboutMe p{
+    font-family: "Lato", sans-serif;
+    line-height: 26px;
+}
+
+.aboutMe-Img{
+    padding-left: 50px;
+}
+
+/*MY PASSION SESSION*/
+
+.myPassion{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    margin-top: -100px;
+}
+
+.thePassion > h2{
+    text-align: center;
+    font-family: "Cormorant SC", serif;
+    font-size: 120px;
+    line-height: 120px;
+}
+
+.theImages{
+    display: inline-flex;
+    gap: 10px;
+    margin-top: -70px;
+}
+
+
+.theImages > img{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.theNames{
+    display: flex;
+    font-family: "Cormorant SC", serif;
+    justify-content: space-around;
+    font-size: 40px;
+}
+
+.theNames > p{
+    align-items: space-around;
+}
+
+/*BLOG SESSION*/
+
+.blog{
+    background-color: white;
+    margin-top: -20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blog > h2{
+    font-family: "Cormorant SC", serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.blog-sec{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-sec img{
+    height: 600px;
+    width: 600px;
+
+}
+
+.blog-text{
+    background-color: rgb(201, 185, 165);
+    color: white;
+    padding-left: 50px;
+    padding-top: 60px;
+    height:540px;
+}
+
+.blog-text h3{
+    font-size: 46px;
+    font-family: "Cormorant SC", serif;
+    line-height: 46px;
+}
+
+.blog-text p{
+    font-family:"Lato", sans-serif ;
+    font-size: 15px;
+    line-height: 26px;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+padding-top: 15px;
+}
+
+/*CONTACT*/
+
+.contact{
+   background-color:  rgb(245, 241, 235);
+   text-align: center;
+}
+
+.contact-text > h2{
+    padding-top: 45px;
+    
+    font-family: "Cormorant SC", serif;
+    font-size: 50px;
+}
+
+.contact-text button{
+margin-bottom: 40px;
+}
+
+/*FOLLOW SESSION*/
+
+.follow{
+text-align: center;
+}
+
+.follow-cont h3{
+    font-size: 50px;
+    font-family: "Cormorant SC", serif;
+    margin-bottom: 10px;
+}
+
+.follow-cont p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+.follow-img{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.follow-img > img{
+    width: 30px;
+    padding-bottom: 40px;
+}
+
+/*IMAGE PREVIEW*/
+
+.just-img{
+    display: flex;
+    overflow: hidden;
+}
+
+.the-img > img{
+    width: 317px;
+    height: 500px;
+    margin: -2px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+#glass:hover  {
+    transform:scale(1.05);
+    overflow: hidden;
+}
+
+ #coffee:hover {
+    transform:scale(1.05);
+    overflow: hidden;
+}
+
+#mirroWoman:hover  {
+    transform:scale(1.05);
+    overflow: hidden;
+}
+
+#cat:hover  {
+    transform:scale(1.05);
+    overflow: hidden;
+}
+
+/*LAST SESSION*/
+
+.last{
+    margin-top: -2px;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    height: 400px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+.last-sec{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.last-sec-link > a{
+    text-decoration: none;
+    color: white;
+    font-family: "Cormorant SC", serif;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.art{
+    font-style: italic;
+    font-size: 30px;
+}
+
+.artStudio >  p{
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 50px;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+span{
+    color: rgb(5, 180, 5);
+}
